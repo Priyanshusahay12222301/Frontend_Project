@@ -1,0 +1,113 @@
+/* Body styling */
+body {
+    background-image: url('backg_LE_auto_x2.jpg');
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-attachment: fixed ;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px auto; /* Add margin to the top and bottom, center horizontally */
+    max-width: 800px; /* Limit the width of the content */
+}
+
+/* Container styling */
+.container {
+    margin-top: 20px; /* Add space between containers */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.3); /* Blue shadow */
+    transition: box-shadow 0.5s, transform 0.5s;
+}
+
+.container:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 255, 0.5); /* Larger blue shadow on hover */
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Heading container */
+.container1:hover {
+    text-shadow: 0 0 10px rgb(255, 236, 92);
+    text-transform: capitalize;
+    transition-duration: 0.5s;
+    color: rgb(244, 255, 26);
+}
+
+/* Add Items heading styles */
+#add-items {
+    text-align: center;
+    transition: color 0.3s, transform 0.3s;
+}
+
+#add-items:hover {
+    color: #ffcc00;
+    transform: scale(1.1);
+    text-shadow: 0 0 100px rgba(255, 0, 0, 0.5);
+    text-transform: capitalize;
+    transition-duration: 0.5s;
+}
+
+/* Form control */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Submit button */
+.btn-dark {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s; /* Added transform transition */
+}
+
+.btn-dark:hover {
+    text-align: justify;
+    text-transform: uppercase;
+    text-wrap: 100px;
+    transition: 0.5;
+    color: #000000;
+    background-color: #9ded7e;
+    box-shadow: 0 0 200px rgba(0, 0, 255, 0.7); /* Blue shadow on hover */
+    transform: translateY(-2px); /* Move button slightly up on hover */
+    border-radius: 5em;
+}
+
+/* List group */
+.list-group {
+    margin-top: 20px;
+}
+
+.list-group-item {
+    padding: 10px 15px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background-color: #2ec7f6;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+.list-group-item .btn-danger {
+    background-color: #ff9100;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.list-group-item .btn-danger:hover {
+    background-color: #ff0000;
+    transition: s;
+    color: #ffffff;
+    box-shadow: #000000;
+}
