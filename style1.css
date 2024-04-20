@@ -30,7 +30,7 @@ body {
     text-shadow: 0 0 10px rgb(255, 236, 92);
     text-transform: capitalize;
     transition-duration: 0.5s;
-    color: rgb(244, 255, 26);
+    color: rgb(0, 255, 187);
 }
 
 /* Add Items heading styles */
@@ -110,4 +110,15 @@ body {
     transition: s;
     color: #ffffff;
     box-shadow: #000000;
+}
+.container1 {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.container1:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7); /* Glow effect on hover */
+    border: #000000 (100px,200px);
 }
